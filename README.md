@@ -27,9 +27,26 @@ network={
 ```
 Create a file named **ssh** in the same _boot_ directory and keep it blank.
 
-# Boot Raspberry Pi and Enable I2C interface
+# Boot Raspberry Pi
 Insert the microSD card to Raspberry Pi.<br/>
 Download PuTTY from https://www.putty.org/<br/>
 Open Putty with host name **raspberrypi**<br/>
-Login as **pi**
-Password **raspberry**
+Login as **pi**<br/>
+Password **raspberry**<br/>
+ 
+# Enable I2C interface
+Run following command.
+```
+sudo raspi-config
+```
+Select **3 Interface Optionn**, select **P5 I2C** and set **Yes**<br/>
+Press **Tab** and select **Finish**
+
+# Setup Jupyter
+Run following commands.
+```
+sudo apt install git -y
+cd ~ && git clone https://github.com/ANI717/headless_raspberrypi_setup
+cd ~/headless_raspberrypi_setup/jupyter_setup
+chmod +x jupyter.sh && ./jupyter.sh
+```
