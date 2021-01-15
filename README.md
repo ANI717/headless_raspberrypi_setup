@@ -56,3 +56,16 @@ hostname -I
 ```
 Open Jupytar Lab in a browser from http://10.0.0.x:8888/ (make sure to provide the proper IP address).<br/>
 Log in with [password], default is **raspberry**
+
+## Install ROS1
+Run following command to see total allocated memory.<br/>
+```
+free th
+```
+If memory is less than 1GB, run following commands to add extra 4GB swap memory.
+```
+sudo dd if=/dev/zero of=/swap1 bs=1M count=4096
+sudo mkswap /swap1
+sudo swapon /swap1
+sudo bash -c "echo '/swap1 swap swap' >> /etc/fstab"
+```
