@@ -27,14 +27,14 @@ network={
 ```
 Create a file named **ssh** in the same _boot_ directory and keep it blank.
 
-# Boot Raspberry Pi
+## Boot Raspberry Pi
 Insert the microSD card to Raspberry Pi.<br/>
 Download PuTTY from https://www.putty.org/<br/>
 Open Putty with host name **raspberrypi**<br/>
 Login as **pi**<br/>
 Password **raspberry**<br/>
  
-# Enable I2C interface
+## Enable I2C interface
 Run following command in PuTTY.
 ```
 sudo raspi-config
@@ -42,7 +42,7 @@ sudo raspi-config
 Select **3 Interface Optionn**, select **P5 I2C** and set **Yes**<br/>
 Press **Tab** and select **Finish**
 
-# Setup Jupyter Lab
+## Setup Jupyter Lab
 Run following commands in PuTTY.
 ```
 sudo apt install git -y
@@ -50,8 +50,9 @@ cd ~ && git clone https://github.com/ANI717/headless_raspberrypi_setup
 cd ~/headless_raspberrypi_setup/jupyter_setup
 chmod +x jupyter.sh && ./jupyter.sh [password]
 ```
-The IP address (10.0.0.x) can be found from 1st element with following command.
+The IP address (looks like 10.0.0.x) can be found from 1st element with following command.
 ```
 hostname -I
 ```
-Open Jupytar Lab in a browser from 10.0.0.x:8888
+Open Jupytar Lab in a browser from 10.0.0.x:8888<br/>
+Log in with [password]
