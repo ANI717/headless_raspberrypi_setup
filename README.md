@@ -39,7 +39,7 @@ Run following command in PuTTY.
 ```
 sudo raspi-config
 ```
-Select **3 Interface Optionn**, select **P5 I2C** and set **Yes**<br/>
+Select **3 Interface Option**, select **P5 I2C** and set **Yes**<br/>
 Press **Tab** and select **Finish**
 
 ## Setup Jupyter Lab
