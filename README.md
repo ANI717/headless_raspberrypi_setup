@@ -69,7 +69,7 @@ sudo mkswap /swap1
 sudo swapon /swap1
 sudo bash -c "echo '/swap1 swap swap' >> /etc/fstab"
 ```
-Reboot with following command
+Reboot with following command.
 ```
 sudo reboot
 ```
