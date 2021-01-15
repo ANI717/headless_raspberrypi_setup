@@ -78,3 +78,14 @@ Install ROS1 with following command.
 cd ~/headless_raspberrypi_setup
 chmod +x installros.sh && ./installros.sh
 ```
+
+## Install AWS Greengrass
+Install AWS Greengrass with following command.
+```
+cd ~/headless_raspberrypi_setup
+chmod +x greengrass.sh && ./greengrass.sh
+```
+Reboot with following command.
+```
+sudo reboot
+```
