@@ -1,4 +1,4 @@
-# Raspberrypi Setup with Jupyter Lab in Public network Without Monitor
+# Raspberrypi Setup with Jupyter Lab in Private network Without Monitor
 
 ## Install Raspberry Pi OS on microSD card
 Download balenaEtcher from https://www.balena.io/etcher/<br/>
