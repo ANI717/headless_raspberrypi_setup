@@ -1,4 +1,4 @@
-# Raspberrypi Setup with Jupyter in Public network Without Monitor
+# Raspberrypi Setup with Jupyter Lab in Public network Without Monitor
 
 ## Install Raspberry Pi OS on microSD card
 Download balenaEtcher from https://www.balena.io/etcher/<br/>
@@ -35,18 +35,23 @@ Login as **pi**<br/>
 Password **raspberry**<br/>
  
 # Enable I2C interface
-Run following command.
+Run following command in PuTTY.
 ```
 sudo raspi-config
 ```
 Select **3 Interface Optionn**, select **P5 I2C** and set **Yes**<br/>
 Press **Tab** and select **Finish**
 
-# Setup Jupyter
-Run following commands.
+# Setup Jupyter Lab
+Run following commands in PuTTY.
 ```
 sudo apt install git -y
 cd ~ && git clone https://github.com/ANI717/headless_raspberrypi_setup
 cd ~/headless_raspberrypi_setup/jupyter_setup
-chmod +x jupyter.sh && ./jupyter.sh
+chmod +x jupyter.sh && ./jupyter.sh [password]
 ```
+The IP address (10.0.0.x) can be found from 1st element with following command.
+```
+hostname -I
+```
+Open Jupytar Lab in a browser from 10.0.0.x:8888
