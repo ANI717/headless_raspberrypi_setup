@@ -54,5 +54,5 @@ The IP address (looks like 10.0.0.x) can be found from 1st element with followin
 ```
 hostname -I
 ```
-Open Jupytar Lab in a browser from http://10.0.0.x:8888/<br/>
+Open Jupytar Lab in a browser from http://10.0.0.x:8888/ (make sure to provide proper IP address).<br/>
 Log in with [password]
