@@ -57,7 +57,7 @@ hostname -I
 Open Jupytar Lab in a browser from http://10.0.0.x:8888/ (make sure to provide the proper IP address).<br/>
 Log in with [password], default is **raspberry**
 
-## Install ROS1
+## Install ROS Melodic
 Run following command to see total allocated memory.<br/>
 ```
 free th
@@ -73,7 +73,7 @@ Reboot with following command.
 ```
 sudo reboot
 ```
-Install ROS1 with following command.
+Install ROS Melodic with following command.
 ```
 cd ~/headless_raspberrypi_setup
 chmod +x installros.sh && ./installros.sh
