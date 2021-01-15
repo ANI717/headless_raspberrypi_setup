@@ -73,14 +73,14 @@ Reboot with following command.
 ```
 sudo reboot
 ```
-Install ROS Melodic with following command.
+Install ROS Melodic with following commands.
 ```
 cd ~/headless_raspberrypi_setup
 chmod +x installros.sh && ./installros.sh
 ```
 
 ## Install AWS Greengrass
-Install AWS Greengrass with following command.
+Install AWS Greengrass with following commands.
 ```
 cd ~/headless_raspberrypi_setup
 chmod +x greengrass.sh && ./greengrass.sh
