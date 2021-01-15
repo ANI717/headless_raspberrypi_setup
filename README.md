@@ -62,7 +62,7 @@ Run following command to see total allocated memory.<br/>
 ```
 free th
 ```
-If memory is less than 1GB, run following commands to add extra 4GB swap memory.
+If memory is less than 3GB, run following commands to add extra 4GB swap memory.
 ```
 sudo dd if=/dev/zero of=/swap1 bs=1M count=4096
 sudo mkswap /swap1
