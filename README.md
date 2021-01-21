@@ -1,10 +1,17 @@
 # Headless Raspberry Pi 4 Setup with Jupyter Lab in Private Network Without Monitor
 
 ## Table of Contents  
-Install Raspberry Pi OS on microSD card](#headers) <br/>
+[Requirements](#requirements) <br/>
+[Additional Required Packages](#packages) <br/>
+[Get Started](#getstarted) <br/>
+[Video Tutorials](#video) <br/>
+[Important Topics](#topics) <br/>
+[Assignment 01](#assignment01) <br/>
+[Assignment 02](#assignment02) <br/>
+[Performance Improvements for Virtual Machines](#improvement) <br/>
+[License](#license) <br/>
 
-<a name="headers"/>
-## Install Raspberry Pi OS on microSD card
+## Install Raspberry Pi OS on microSD card <a name="requirements"></a>
 Download the latest version of Raspberry Pi Imager from https://www.raspberrypi.org/software/ and install it.<br/>
 Download Raspberry Pi OS Image 64 bit Raspbian Buster from https://downloads.raspberrypi.org/raspios_arm64/images/.<br/>
 Install 64 bit Raspbian Buster with Raspberry Pi Imager on a microSD card.
