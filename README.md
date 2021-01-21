@@ -6,6 +6,7 @@
 [Boot Raspberry Pi](#boot) <br/>
 [Enable ARM I2C Interface](#i2c) <br/>
 [Setup Jupyter Lab](#jupyter) <br/>
+[Add Extra 4GB Swap Memory](#swap) <br/>
 [Install ROS Melodich](#melodic) <br/>
 [Install AWS Greengrass](#greengrass) <br/>
 
@@ -66,12 +67,8 @@ hostname -I
 Open Jupytar Lab in a browser from http://10.0.0.x:8888/ (make sure to provide the proper IP address).<br/>
 Log in with [password], default is **raspberry**
 
-## Install ROS Melodic <a name="melodic"></a>
-Run following command to see total allocated memory.<br/>
-```
-free th
-```
-If memory is less than 3GB, run following commands to add extra 4GB swap memory.
+## Add Extra 4GB Swap Memory <a name="swap"></a>
+Run following commands to add extra 4GB swap memory.
 ```
 sudo dd if=/dev/zero of=/swap1 bs=1M count=4096
 sudo mkswap /swap1
@@ -82,6 +79,13 @@ Reboot with following command.
 ```
 sudo reboot
 ```
+Run following command to see total allocated memory.<br/>
+```
+free th
+```
+
+## Install ROS Melodic <a name="melodic"></a>
+Make sure that 4GB swap memory is allocated.<br/>
 Install ROS Melodic with following commands.
 ```
 cd ~/headless_raspberrypi_setup
