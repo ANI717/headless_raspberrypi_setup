@@ -2,14 +2,6 @@
 
 ## Table of Contents  
 [Install Raspberry Pi OS on microSD card](#raspbian) <br/>
-[Additional Required Packages](#packages) <br/>
-[Get Started](#getstarted) <br/>
-[Video Tutorials](#video) <br/>
-[Important Topics](#topics) <br/>
-[Assignment 01](#assignment01) <br/>
-[Assignment 02](#assignment02) <br/>
-[Performance Improvements for Virtual Machines](#improvement) <br/>
-[License](#license) <br/>
 
 ## Install Raspberry Pi OS on microSD card <a name="raspbian"></a>
 Download the latest version of Raspberry Pi Imager from https://www.raspberrypi.org/software/ and install it.<br/>
