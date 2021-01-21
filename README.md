@@ -3,7 +3,7 @@
 ## Install Raspberry Pi OS on microSD card
 Download the latest version of Raspberry Pi Imager from https://www.raspberrypi.org/software/ and install it.<br/>
 Download Raspberry Pi OS Image 64 bit Raspbian Buster from https://downloads.raspberrypi.org/raspios_arm64/images/.<br/>
-Install 64 bit Raspbian Buster with Raspberry Pi Imager on microSD card.
+Install 64 bit Raspbian Buster with Raspberry Pi Imager on a microSD card.
 
 ## Enable wifi and ssh
 Create a file named **wpa_supplicant.conf** in the _boot_ directory of microSD card.<br/>
