@@ -1,9 +1,9 @@
 # Headless Raspberry Pi 4 Setup with Jupyter Lab in Private Network Without Monitor
 
 ## Install Raspberry Pi OS on microSD card
-Download balenaEtcher from https://www.balena.io/etcher/<br/>
-Download Raspberry Pi OS Lite from https://www.raspberrypi.org/software/operating-systems/<br/>
-Install Raspberry Pi OS Lite with balenaEtcher on microSD card.
+Download the latest version of Raspberry Pi Imager from https://www.raspberrypi.org/software/ and install it<br/>
+Download Raspberry Pi OS Image 64 bit Raspbian Buster from https://downloads.raspberrypi.org/raspios_arm64/images/raspios_arm64-2020-05-28/<br/>
+Install 64 bit Raspbian Buster with Raspberry Pi Imager on microSD card.
 
 ## Enable wifi and ssh
 Create a file named **wpa_supplicant.conf** in the _boot_ directory of microSD card.<br/>
