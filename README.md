@@ -3,6 +3,11 @@
 ## Table of Contents  
 [Install Raspberry Pi OS on microSD card](#raspbian) <br/>
 [Enable wifi and ssh](#wifissh) <br/>
+[Boot Raspberry Pi](#boot) <br/>
+[Enable I2C interface](#i2c) <br/>
+[Setup Jupyter Lab](#jupyter) <br/>
+[Install ROS Melodich](#melodic) <br/>
+[Install AWS Greengrass](#greengrass) <br/>
 
 ## Install Raspberry Pi OS on microSD card <a name="raspbian"></a>
 Download the latest version of Raspberry Pi Imager from https://www.raspberrypi.org/software/ and install it.<br/>
@@ -31,14 +36,14 @@ network={
 ```
 Create a file named **ssh** in the same _boot_ directory and keep it blank.
 
-## Boot Raspberry Pi
+## Boot Raspberry Pi <a name="boot"></a>
 Insert the microSD card to Raspberry Pi.<br/>
 Download PuTTY from https://www.putty.org/<br/>
 Open Putty with host name **raspberrypi**<br/>
 Login as **pi**<br/>
 Password **raspberry**<br/>
  
-## Enable I2C interface
+## Enable I2C interface <a name="i2c"></a>
 Run following command in PuTTY.
 ```
 sudo raspi-config
@@ -46,7 +51,7 @@ sudo raspi-config
 Select **3 Interface Option**, select **P5 I2C** and set **Yes**<br/>
 Press **Tab** and select **Finish**
 
-## Setup Jupyter Lab
+## Setup Jupyter Lab <a name="jupyter"></a>
 Run following commands in PuTTY.
 ```
 sudo apt install git -y
@@ -61,7 +66,7 @@ hostname -I
 Open Jupytar Lab in a browser from http://10.0.0.x:8888/ (make sure to provide the proper IP address).<br/>
 Log in with [password], default is **raspberry**
 
-## Install ROS Melodic
+## Install ROS Melodic <a name="melodic"></a>
 Run following command to see total allocated memory.<br/>
 ```
 free th
@@ -83,7 +88,7 @@ cd ~/headless_raspberrypi_setup
 chmod +x installros.sh && ./installros.sh
 ```
 
-## Install AWS Greengrass
+## Install AWS Greengrass <a name="greengrass"></a>
 Install AWS Greengrass with following commands.
 ```
 cd ~/headless_raspberrypi_setup
