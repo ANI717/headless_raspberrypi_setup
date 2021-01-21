@@ -11,8 +11,8 @@
 [Install AWS Greengrass](#greengrass) <br/>
 
 ## Install Raspberry Pi OS on microSD card <a name="raspbian"></a>
-Download the latest version of Raspberry Pi Imager from https://www.raspberrypi.org/software/ and install it.<br/>
-Download Raspberry Pi OS Image 64 bit Raspbian Buster from https://downloads.raspberrypi.org/raspios_arm64/images/.<br/>
+Download the latest version of Raspberry Pi Imager from [here](https://www.raspberrypi.org/software/) and install it.<br/>
+Download Raspberry Pi OS Image 64 bit Raspbian Buster from [here](https://downloads.raspberrypi.org/raspios_arm64/images/).<br/>
 Install 64 bit Raspbian Buster with Raspberry Pi Imager on a microSD card.
 
 ## Enable wifi and ssh <a name="wifissh"></a>
@@ -39,7 +39,7 @@ Create a file named **ssh** in the same _boot_ directory and keep it blank.
 
 ## Boot Raspberry Pi <a name="boot"></a>
 Insert the microSD card to Raspberry Pi.<br/>
-Download PuTTY from https://www.putty.org/<br/>
+Download PuTTY from [here](https://www.putty.org/)<br/>
 Open Putty with host name **raspberrypi**<br/>
 Login as **pi**<br/>
 Password **raspberry**<br/>
