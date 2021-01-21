@@ -4,7 +4,7 @@
 [Install Raspberry Pi OS on microSD card](#raspbian) <br/>
 [Enable wifi and ssh](#wifissh) <br/>
 [Boot Raspberry Pi](#boot) <br/>
-[Enable I2C interface](#i2c) <br/>
+[nable ARM I2C Interface](#i2c) <br/>
 [Setup Jupyter Lab](#jupyter) <br/>
 [Install ROS Melodich](#melodic) <br/>
 [Install AWS Greengrass](#greengrass) <br/>
@@ -43,12 +43,12 @@ Open Putty with host name **raspberrypi**<br/>
 Login as **pi**<br/>
 Password **raspberry**<br/>
  
-## Enable I2C interface <a name="i2c"></a>
+## Enable ARM I2C Interface <a name="i2c"></a>
 Run following command in PuTTY.
 ```
 sudo raspi-config
 ```
-Select **3 Interface Option**, select **P5 I2C** and set **Yes**<br/>
+Select **Interfacing Options**, select **I2C** and set **Yes**<br/>
 Press **Tab** and select **Finish**
 
 ## Setup Jupyter Lab <a name="jupyter"></a>
