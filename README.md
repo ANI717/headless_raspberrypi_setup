@@ -7,6 +7,7 @@
 [Enable ARM I2C Interface](#i2c) <br/>
 [Setup Jupyter Lab](#jupyter) <br/>
 [Add Extra 4GB Swap Memory](#swap) <br/>
+[Install Deep Learning Packages](#deeplearn) <br/>
 [Install ROS Melodich](#melodic) <br/>
 [Install AWS Greengrass](#greengrass) <br/>
 
@@ -82,6 +83,23 @@ sudo reboot
 Run following command to see total allocated memory.<br/>
 ```
 free th
+```
+
+## Install Deep Learning Packages <a name="deeplearn"></a>
+Run following commands to install PyTorch, Torchvision, Pandas, Matplotlib and OpenCV
+```
+sudo apt update
+sudo apt install libopenblas-dev libblas-dev m4 cmake cython python3-yaml libatlas-base-dev
+export ONNX_ML=1
+git clone --recursive https://github.com/pytorch/pytorch
+cd pytorch
+sudo -E python3 setup.py install
+python3 -m pip install --upgrade pip
+python3 -m pip install torchvision
+python3 -m pip install pandas
+python3 -m pip install --upgrade Pillow
+python3 -m pip install matplotlib
+python3 -m pip install opencv-contrib-python
 ```
 
 ## Install ROS Melodic <a name="melodic"></a>
