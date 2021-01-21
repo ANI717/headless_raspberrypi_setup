@@ -8,7 +8,7 @@
 [Setup Jupyter Lab](#jupyter) <br/>
 [Add Extra 4GB Swap Memory](#swap) <br/>
 [Install Deep Learning Packages](#deeplearn) <br/>
-[Install ROS Melodich](#melodic) <br/>
+[Install ROS Melodic](#melodic) <br/>
 [Install AWS Greengrass](#greengrass) <br/>
 
 ## Install Raspberry Pi OS on microSD card <a name="raspbian"></a>
