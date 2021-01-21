@@ -94,7 +94,7 @@ chmod +x deeplearning.sh && ./deeplearning.sh
 Or run following commands to install manually.
 ```
 sudo apt update
-sudo apt install libopenblas-dev libblas-dev m4 cmake cython python3-yaml libatlas-base-dev
+sudo apt install libopenblas-dev libblas-dev m4 cmake cython python3-yaml libatlas-base-dev -y
 export ONNX_ML=1
 git clone --recursive https://github.com/pytorch/pytorch
 cd pytorch
