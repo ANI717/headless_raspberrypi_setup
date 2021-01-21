@@ -86,7 +86,12 @@ free th
 ```
 
 ## Install Deep Learning Packages <a name="deeplearn"></a>
-Run following commands to install PyTorch, Torchvision, Pandas, Matplotlib and OpenCV
+Run following commands to install PyTorch, Torchvision, Pandas, Matplotlib and OpenCV.
+```
+cd ~/headless_raspberrypi_setup
+chmod +x deeplearning.sh && ./deeplearning.sh
+```
+Or run following commands to install manually.
 ```
 sudo apt update
 sudo apt install libopenblas-dev libblas-dev m4 cmake cython python3-yaml libatlas-base-dev
@@ -100,11 +105,6 @@ python3 -m pip install pandas
 python3 -m pip install --upgrade Pillow
 python3 -m pip install matplotlib
 python3 -m pip install opencv-contrib-python
-```
-Or run with a single script with following commands
-```
-cd ~/headless_raspberrypi_setup
-chmod +x deeplearning.sh && ./deeplearning.sh
 ```
 
 ## Install ROS Melodic <a name="melodic"></a>
