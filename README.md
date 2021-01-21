@@ -1,5 +1,10 @@
 # Headless Raspberry Pi 4 Setup Without Monitor
 
+## Colaborators
+(https://sites.temple.edu/cflab/people/)
+* Animesh Bala Ani
+* Dr. Li Bai
+
 ## Table of Contents  
 [Install Raspberry Pi OS on microSD card](#raspbian) <br/>
 [Enable wifi and ssh](#wifissh) <br/>
