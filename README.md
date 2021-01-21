@@ -4,7 +4,7 @@
 [Install Raspberry Pi OS on microSD card](#raspbian) <br/>
 [Enable wifi and ssh](#wifissh) <br/>
 [Boot Raspberry Pi](#boot) <br/>
-[nable ARM I2C Interface](#i2c) <br/>
+[Enable ARM I2C Interface](#i2c) <br/>
 [Setup Jupyter Lab](#jupyter) <br/>
 [Install ROS Melodich](#melodic) <br/>
 [Install AWS Greengrass](#greengrass) <br/>
