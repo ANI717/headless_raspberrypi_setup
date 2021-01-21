@@ -60,11 +60,11 @@ cd ~ && git clone https://github.com/ANI717/headless_raspberrypi_setup
 cd ~/headless_raspberrypi_setup/jupyter_setup
 chmod +x jupyter.sh && ./jupyter.sh [password]
 ```
-The IP address (looks like 10.0.0.x) can be found from 1st element with following command.
+The IP address (looks like xxx.xx.xx.xxx) can be found from 1st element with following command.
 ```
 hostname -I
 ```
-Open Jupytar Lab in a browser from http://10.0.0.x:8888/ (make sure to provide the proper IP address).<br/>
+Open Jupytar Lab in a browser from http://xxx.xx.xx.xxx:8888/ (make sure to provide the proper IP address).<br/>
 Log in with [password], default is **raspberry**
 
 ## Add Extra 4GB Swap Memory <a name="swap"></a>
