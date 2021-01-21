@@ -1,7 +1,7 @@
 # Headless Raspberry Pi 4 Setup with Jupyter Lab in Private Network Without Monitor
 
 ## Table of Contents  
-[Requirements](#requirements) <br/>
+[Install Raspberry Pi OS on microSD card](#requirements) <br/>
 [Additional Required Packages](#packages) <br/>
 [Get Started](#getstarted) <br/>
 [Video Tutorials](#video) <br/>
