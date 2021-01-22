@@ -111,6 +111,7 @@ python3 -m pip install --upgrade Pillow
 python3 -m pip install matplotlib
 python3 -m pip install opencv-contrib-python
 ```
+Takes aploximately 8 hours to complete installation.
 
 ## Install ROS Melodic <a name="melodic"></a>
 Make sure that 4GB swap memory is allocated.<br/>
