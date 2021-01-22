@@ -120,7 +120,7 @@ Install ROS Melodic with following commands.
 cd ~/headless_raspberrypi_setup
 chmod +x installros.sh && ./installros.sh
 ```
-Takes aploximately half hours to complete installation.
+Takes aploximately 45 minutes to complete installation.
 
 ## Install AWS Greengrass <a name="greengrass"></a>
 Install AWS Greengrass with following commands.
