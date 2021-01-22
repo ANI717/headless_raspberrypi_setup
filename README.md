@@ -1,4 +1,5 @@
 # Headless Raspberry Pi 4 Setup Without Monitor
+Headless Raspberry Pi Setup with Jupyter Lab in Private Network Without Monitor. ROS Melodic, Deep Learning Modules and AWS Greengrass Setup Included.
 
 ## Colaborators
 [Computer Fusion Laboratory (CFL) - Temple University College of Engineering](https://sites.temple.edu/cflab/people/)
