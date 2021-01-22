@@ -1,15 +1,20 @@
 # Headless Raspberry Pi 4 Setup Without Monitor
 
+## Colaborators
+[Computer Fusion Laboratory (CFL) - Temple University College of Engineering](https://sites.temple.edu/cflab/people/)
+* [Animesh Bala Ani](https://animeshani.com/)
+* [Dr. Li Bai](https://engineering.temple.edu/about/faculty-staff/li-bai-lbai)
+
 ## Table of Contents  
-[Install Raspberry Pi OS on microSD card](#raspbian) <br/>
-[Enable wifi and ssh](#wifissh) <br/>
-[Boot Raspberry Pi](#boot) <br/>
-[Enable ARM I2C Interface](#i2c) <br/>
-[Setup Jupyter Lab](#jupyter) <br/>
-[Add Extra 4GB Swap Memory](#swap) <br/>
-[Install Deep Learning Packages](#deeplearn) <br/>
-[Install ROS Melodich](#melodic) <br/>
-[Install AWS Greengrass](#greengrass) <br/>
+* [Install Raspberry Pi OS on microSD card](#raspbian) <br/>
+* [Enable wifi and ssh](#wifissh) <br/>
+* [Boot Raspberry Pi](#boot) <br/>
+* [Enable ARM I2C Interface](#i2c) <br/>
+* [Setup Jupyter Lab](#jupyter) <br/>
+* [Add Extra 4GB Swap Memory](#swap) <br/>
+* [Install Deep Learning Packages](#deeplearn) <br/>
+* [Install ROS Melodic](#melodic) <br/>
+* [Install AWS Greengrass](#greengrass) <br/>
 
 ## Install Raspberry Pi OS on microSD card <a name="raspbian"></a>
 Download the latest version of Raspberry Pi Imager from [here](https://www.raspberrypi.org/software/) and install it.<br/>
@@ -106,6 +111,7 @@ python3 -m pip install --upgrade Pillow
 python3 -m pip install matplotlib
 python3 -m pip install opencv-contrib-python
 ```
+Takes aploximately 8 hours to complete installation.
 
 ## Install ROS Melodic <a name="melodic"></a>
 Make sure that 4GB swap memory is allocated.<br/>
@@ -114,6 +120,7 @@ Install ROS Melodic with following commands.
 cd ~/headless_raspberrypi_setup
 chmod +x installros.sh && ./installros.sh
 ```
+Takes aploximately 45 minutes to complete installation.
 
 ## Install AWS Greengrass <a name="greengrass"></a>
 Install AWS Greengrass with following commands.
