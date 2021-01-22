@@ -1,20 +1,20 @@
 # Headless Raspberry Pi 4 Setup Without Monitor
 
 ## Colaborators
-(https://sites.temple.edu/cflab/people/)
-* Animesh Bala Ani
-* Dr. Li Bai
+[Computer Fusion Laboratory (CFL) - Temple University College of Engineering](https://sites.temple.edu/cflab/people/)
+* [Animesh Bala Ani](https://animeshani.com/)
+* [Dr. Li Bai](https://engineering.temple.edu/about/faculty-staff/li-bai-lbai)
 
 ## Table of Contents  
-[Install Raspberry Pi OS on microSD card](#raspbian) <br/>
-[Enable wifi and ssh](#wifissh) <br/>
-[Boot Raspberry Pi](#boot) <br/>
-[Enable ARM I2C Interface](#i2c) <br/>
-[Setup Jupyter Lab](#jupyter) <br/>
-[Add Extra 4GB Swap Memory](#swap) <br/>
-[Install Deep Learning Packages](#deeplearn) <br/>
-[Install ROS Melodic](#melodic) <br/>
-[Install AWS Greengrass](#greengrass) <br/>
+* [Install Raspberry Pi OS on microSD card](#raspbian) <br/>
+* [Enable wifi and ssh](#wifissh) <br/>
+* [Boot Raspberry Pi](#boot) <br/>
+* [Enable ARM I2C Interface](#i2c) <br/>
+* [Setup Jupyter Lab](#jupyter) <br/>
+* [Add Extra 4GB Swap Memory](#swap) <br/>
+* [Install Deep Learning Packages](#deeplearn) <br/>
+* [Install ROS Melodic](#melodic) <br/>
+* [Install AWS Greengrass](#greengrass) <br/>
 
 ## Install Raspberry Pi OS on microSD card <a name="raspbian"></a>
 Download the latest version of Raspberry Pi Imager from [here](https://www.raspberrypi.org/software/) and install it.<br/>
