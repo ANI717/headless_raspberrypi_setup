@@ -20,9 +20,9 @@ jupyter lab --generate-config
 python3 -c "from jupyter_server.auth.security import set_password; set_password('$password', '$HOME/.jupyter/jupyter_server_config.json')"
 
 
-echo "c.NotebookApp.token = ''" >> /home/pi/.jupyter/jupyter_lab_config.py
-echo "c.NotebookApp.password_required = True" >> /home/pi/.jupyter/jupyter_lab_config.py
-echo "c.NotebookApp.allow_credentials = False" >> /home/pi/.jupyter/jupyter_lab_config.py
+echo "c.NotebookApp.token = ''" >> $HOME/.jupyter/jupyter_lab_config.py
+echo "c.NotebookApp.password_required = True" >> $HOME/.jupyter/jupyter_lab_config.py
+echo "c.NotebookApp.allow_credentials = False" >> $HOME/.jupyter/jupyter_lab_config.py
 
 
 python3 create_jupyter_service.py
