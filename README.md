@@ -18,6 +18,7 @@ Headless Raspberry Pi Setup with Jupyter Lab in Private Network Without Monitor.
 * [Add Extra 4GB Swap Memory](#swap) <br/>
 * [Install Deep Learning Packages](#deeplearn) <br/>
 * [Install ROS Melodic](#melodic) <br/>
+* [Install ROS 2 Dashing](#dashing) <br/>
 * [Install AWS Greengrass](#greengrass) <br/>
 
 ## Install Raspberry Pi OS on microSD card <a name="raspbian"></a>
@@ -125,6 +126,9 @@ cd ~/headless_raspberrypi_setup
 chmod +x installros.sh && ./installros.sh
 ```
 Takes aploximately 45 minutes to complete installation.
+
+## Install ROS 2 Dashing <a name="dashing"></a>
+Follow instructions from https://github.com/ANI717/ros2_raspberrypi64
 
 ## Install AWS Greengrass <a name="greengrass"></a>
 Install AWS Greengrass with following commands.
