@@ -5,6 +5,7 @@ sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key C1CF
 sudo apt-get update
 sudo apt-get upgrade -y
 sudo apt install -y python-rosdep python-rosinstall-generator python-wstool python-rosinstall build-essential cmake libboost-all-dev
+pip install empy
 sudo rosdep init
 rosdep update
 mkdir -p ~/ros_catkin_ws
