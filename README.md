@@ -128,7 +128,7 @@ chmod +x installros.sh && ./installros.sh
 Takes aploximately 45 minutes to complete installation.
 
 ## Install ROS 2 Dashing <a name="dashing"></a>
-Follow instructions from https://github.com/ANI717/ros2_raspberrypi64
+Follow instructions from https://github.com/ANI717/ros2_raspberrypi64 <br/>
 Takes aploximately 2 hours to complete installation.
 
 ## Install AWS Greengrass <a name="greengrass"></a>
